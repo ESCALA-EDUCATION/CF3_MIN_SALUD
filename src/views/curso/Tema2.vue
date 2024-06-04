@@ -206,16 +206,15 @@
           .col-6.col-md-4.col-lg-3.mb-md-0
             .tarjeta.h-100.d-flex.align-items-center.p-4
               figure
-                img(src="@/assets/curso/icon_actividad2.svg", alt="", style="max-width: 221px")
+                img(src="@/assets/curso/icon_actividad.svg", alt="", style="max-width: 221px")
           .col-12.col-md-8.col-lg-9
             h2.txt-color-primario Actividad didáctica 6
-            h3 Reconocimiento y atención orientada, derechos y dignidades aseguradas
-            p Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo: Orientación técnica para la atención en Salud de las personas de los sectores LGBTIQ+.
-            p.mb-4 Para ello, con base en los puntos tratados en el numeral cuatro de este componente formativo, desarrolle la siguiente actividad hasta el final.
+            h3 Análisis clínico: evaluación y decisión en rutas de atención médica
+            p.mb-4 Analizar sobre las rutas de atención médica adecuadas basándose en un caso clínico presentado.
             .tarjeta.bg-white.p-3
               .row.justify-content-around.align-items-center
                 .col-sm.mb-3.mb-sm-0
-                  p.fw-bold.mb-0 Aunque la misma es opcional y no calificable, procure probar su nivel de asimilación de los temas desarrollados. ¡Adelante!  
+                  p.fw-bold.mb-0 Seleccionar  
                 .col-auto
                   a.boton.boton--b(:href="obtenerLink('/actividades/act6/story.html')" target="_blank")
                     span Realizar

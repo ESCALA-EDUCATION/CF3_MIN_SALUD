@@ -212,12 +212,12 @@
                 img(src="@/assets/curso/icon_actividad2.svg", alt="", style="max-width: 221px")
           .col-12.col-md-8.col-lg-9
             h2.txt-color-primario Actividad didáctica 1
-            h3 Lineamientos internacionales
-            p.mb-4 Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo: Orientación técnica para la atención en Salud de las personas de los sectores LGBTIQ+. 
+            h3 Desmitificando estereotipos
+            p.mb-4 Fomentar la comprensión y el respeto por la diversidad sexual y de género a través de la identificación y corrección de mitos comunes.
             .tarjeta.bg-white.p-3
               .row.justify-content-around.align-items-center
                 .col-sm.mb-3.mb-sm-0
-                  p.fw-bold.mb-0 De acuerdo con el enunciado planteado en la columna izquierda, arrastre cada termino al lugar que considere correcto de la columna derecha.
+                  p.fw-bold.mb-0 Falso y verdadero
                 .col-auto
                   a.boton.boton--b(:href="obtenerLink('/actividades/act1/story.html')" target="_blank")
                     span Realizar
@@ -354,15 +354,15 @@
           .col-6.col-md-4.col-lg-3.mb-md-0
             .tarjeta.h-100.d-flex.align-items-center.p-4
               figure
-                img(src="@/assets/curso/icon_actividad2.svg", alt="", style="max-width: 221px")
+                img(src="@/assets/curso/icon_actividad.svg", alt="", style="max-width: 221px")
           .col-12.col-md-8.col-lg-9
             h2.txt-color-primario Actividad didáctica 2
-            h3 Deberes y derechos LGBTIQ+
-            P.mb-4 Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo: Orientación técnica para la atención en Salud de las personas de los sectores LGBTIQ+.
+            h3 Construyendo Frases: Aprendiendo de Maya Angelou.
+            P.mb-4 Fomentar una reflexión sobre la importancia de la comunicación empática y el efecto duradero que nuestras expresiones pueden tener en los demás
             .tarjeta.bg-white.p-3
               .row.justify-content-around.align-items-center
                 .col-sm.mb-3.mb-sm-0
-                  p.fw-bold.mb-0 Analice cada enunciado y elija si representa un deber o un derecho en el contexto del acceso a los servicios de salud para personas LGBTIQ+
+                  p.fw-bold.mb-0 Organizar frase 
                 .col-auto
                   a.boton.boton--b(:href="obtenerLink('/actividades/act2/story.html')" target="_blank")
                     span Realizar
@@ -463,12 +463,12 @@
                 img(src="@/assets/curso/icon_actividad2.svg", alt="", style="max-width: 221px")
           .col-12.col-md-8.col-lg-9
             h2.txt-color-primario Actividad didáctica 3
-            h3 Desenredando conceptos: mitos, desinformación, omisión y patologización
-            p.mb-4 Analice cada enunciado y elija si representa un deber o un derecho en el contexto del acceso a los servicios de salud para personas LGBTIQ+
+            h3 Voces y vivencias: reflexionando sobre la atención afirmativa
+            p.mb-4 Promover la comprensión y empatía hacia las experiencias de atención médica de las personas de los sectores LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas.
             .tarjeta.bg-white.p-3
               .row.justify-content-around.align-items-center
                 .col-sm.mb-3.mb-sm-0
-                  p.fw-bold.mb-0 Se presentarán una serie de escenarios o situaciones hipotéticas. Lea cada uno cuidadosamente y elija la opción correcta.  
+                  p.fw-bold.mb-0 Relacionar conceptos  
                 .col-auto
                   a.boton.boton--b(:href="obtenerLink('/actividades/act3/story.html')" target="_blank")
                     span Realizar
@@ -787,15 +787,15 @@
           .col-6.col-md-4.col-lg-3.mb-md-0
             .tarjeta.h-100.d-flex.align-items-center.p-4
               figure
-                img(src="@/assets/curso/icon_actividad2.svg", alt="", style="max-width: 221px")
+                img(src="@/assets/curso/icon_actividad.svg", alt="", style="max-width: 221px")
           .col-12.col-md-8.col-lg-9
             h2.txt-color-primario Actividad didáctica 4
-            h3 Explorando la diversidad
-            p.mb-4 Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo: Orientación técnica para la atención en Salud de las personas de los sectores LGBTIQ+.
+            h3 Decisiones y dilemas
+            p.mb-4 Fomentar el análisis crítico y la toma de decisiones éticas en situaciones clínicas complejas que involucran a personas LGBTIQ+ y con identidades de género diversas.
             .tarjeta.bg-white.p-3
               .row.justify-content-around.align-items-center
                 .col-sm.mb-3.mb-sm-0
-                  p.fw-bold.mb-0 De acuerdo con el enunciado planteado en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha.  
+                  p.fw-bold.mb-0 Seleccionar de una lista    
                 .col-auto
                   a.boton.boton--b(:href="obtenerLink('/actividades/act4/story.html')" target="_blank")
                     span Realizar
@@ -1003,13 +1003,12 @@
                 img(src="@/assets/curso/icon_actividad2.svg", alt="", style="max-width: 221px")
           .col-12.col-md-8.col-lg-9
             h2.txt-color-primario Actividad didáctica 5
-            h3 Experiencias negativas en la atención en Salud para personas LGBTIQ+
-            p Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo: Orientación técnica para la atención en Salud de las personas de los sectores LGBTIQ+.
-            p.mb-4 Antes de su realización, se recomienda la lectura del componente formativo mencionado. Es opcional (no es calificable), y puede realizarlo todas las veces que desee.
+            h3 Inclusión en salud: tecnologías y tratamientos para la diversidad
+            p.mb-4 Explorar las diferentes tecnologías y tratamientos de salud que son esenciales para garantizar una atención médica efectiva y sensible a las necesidades de las personas LGBTIQ+ y con identidades de género no hegemónicas.
             .tarjeta.bg-white.p-3
               .row.justify-content-around.align-items-center
                 .col-sm.mb-3.mb-sm-0
-                  p.fw-bold.mb-0 Lea la afirmación de cada ítem y luego señale las que considere correctas
+                  p.fw-bold.mb-0 Seleccionar
                 .col-auto
                   a.boton.boton--b(:href="obtenerLink('/actividades/act5/story.html')" target="_blank")
                     span Realizar

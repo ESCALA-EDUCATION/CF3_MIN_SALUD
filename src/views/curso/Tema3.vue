@@ -209,13 +209,12 @@
                 img(src="@/assets/curso/icon_actividad2.svg", alt="", style="max-width: 221px")
           .col-12.col-md-8.col-lg-9
             h2.txt-color-primario Actividad didáctica 7
-            h3 Cronología de derechos: inclusión y diversidad
-            p Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo: Orientación técnica para la atención en Salud de las personas de los sectores LGBTIQ+.
-            p.mb-4 Estimado(a), a continuación encontrará una línea de tiempo en la cual podrá asociar el lineamiento normativo, sea internacional o nacional según corresponda, con la garantía del ejercicio efectivo de los derechos de las personas pertenecientes a los sectores sociales LGBTIQ+ y de aquellas con orientaciones sexuales e identidad de género no hegemónicas.
+            h3 Abogando por los derechos
+            p.mb-4 Proporcionar a los participantes un entendimiento práctico sobre cómo identificar y responder a diferentes barreras administrativas y de atención que enfrentan las personas LGBTIQ+ y con identidades de género no hegemónicas en el sistema de salud.
             .tarjeta.bg-white.p-3
               .row.justify-content-around.align-items-center
                 .col-sm.mb-3.mb-sm-0
-                  p.fw-bold.mb-0 Arrastar y soltar
+                  p.fw-bold.mb-0 Seleccionar
                 .col-auto
                   a.boton.boton--b(:href="obtenerLink('/actividades/act7/story.html')" target="_blank")
                     span Realizar

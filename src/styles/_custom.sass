@@ -1,0 +1,735 @@
+
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 70%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 21%
+    right: 25%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 71%
+    right: 70%
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 67%
+    right: 28%
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+span.color-acento-botones
+  font-weight: bold
+  background-color: $color-acento-botones
+  padding: 1px
+span.color-acento-botones2
+  font-weight: bold
+  color: $color-acento-botones !important
+  padding: 1px
+span.color-primario
+  font-weight: bold
+  color: #0F5FFE
+span.color-verde
+  font-weight: bold
+  color: #a7f7dd !important
+
+.titulo-principal__numero, .titulo-principal__numero:before
+  background-color: #0F5FFE
+.titulo-principal__numero span
+  color: white
+.mn
+  margin: 0 -10rem
+  padding: 3rem 10rem
+.contenido_curso
+  padding: 3rem 10rem
+.tarjeta-cita
+  position: relative
+  &__comilla1
+    position: absolute
+    width: 77px
+    top: 0
+    left: 0
+    transform: translate(30px, -10px)
+  &__comilla2
+    position: absolute
+    width: 77px
+    bottom: 0
+    right: 0
+    transform: translate(-30px, 10px)
+
+//BACKGROUND CONTENIDOS//
+.bgr
+  background-color: white
+  box-shadow: 0 3px 5px 0 rgba(17, 30, 97, .3)
+  &_1
+    background-color: #D3FBEE
+  &_2
+    background-color: #2A3C52
+  &_3
+    background-color: $color-acento-botones
+    &:hover
+      background-color: $color-acento-contenido
+      p
+        color: white
+  &_4
+    background-color: #E8F0FF
+    margin: 0 -20px
+  &_5
+    background-color: #2370E3
+  &_6
+    background-color: #E1FBF3
+    border-radius: 30px
+  &_7
+    background-color: #DEE4F0
+  &_8
+    background-color: #D5E3FF
+  &_9
+    background-color: #CBC3D9
+  &_10
+    background-color: #F0F5FF
+  &_11
+    background-color: #E8F0FF
+
+
+.bg_grad-01
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: -21px
+    width: calc( 100% + 20px )
+    height: 93%
+    background-color: #E8F0FF
+    justify-content: space-between
+    border-radius: 0 20px 20px 0
+    @media (max-width: $bp-min-md)
+      top: -10px
+      width: calc(100% + 130px)
+      height: calc(100% + 30px)
+      left: -60px
+.bg_grad-02
+  position: relative
+  p, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 52px
+    left: -160px
+    width: calc(100% + 320px)
+    height: 82%
+    background-color: #3C1C74
+    justify-content: space-between
+    @media (max-width: $bp-min-md)
+      top: 0
+      height: 100%
+.bg_grad-03
+  position: relative
+  p, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: -48px
+    left: -160px
+    width: calc(100% + 320px)
+    height: 98%
+    background-color: #F6F9FF
+    justify-content: space-between
+.bg_grad-04
+  position: relative
+  p, figure, .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: -48px
+    left: -160px
+    width: calc(100% + 320px)
+    height: 98%
+    background-image: url("../assets/curso/tema3/19.svg") 
+    justify-content: space-between
+.bg_grad-05
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: -21px
+    width: calc( 100% + 20px )
+    height: 100%
+    background-color: #AED2FF
+    justify-content: space-between
+    border-radius: 0 20px 20px 0
+.bg_grad-06
+  position: relative
+  p, figure, .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: -160px
+    width: calc(100% + 320px)
+    height: calc(100% + 100px)
+    background-image: url("../assets/curso/tema1/1.svg") 
+    justify-content: space-between
+.bg_grad-07
+  position: relative
+  p, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 28px
+    left: 0
+    width: calc(100% + 50px)
+    height: 89%
+    background-color: #FFFCEC
+    justify-content: space-between
+    @media (max-width: $bp-min-md)
+      top: -10px
+      width: calc(100% + 130px)
+      height: calc(100% + 30px)
+      left: -60px
+.bg_grad-08
+  position: relative
+  p, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 52px
+    left: -160px
+    width: calc(100% + 320px)
+    height: 80%
+    background-color: #E1FBF3
+    justify-content: space-between
+    @media (max-width: $bp-min-md)
+      top: -10px
+      width: calc(100% + 130px)
+      height: calc(100% + 30px)
+      left: -60px
+.bg_grad-09
+  position: relative
+  p, figure, .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 42px
+    left: -160px
+    width: calc(100% + 320px)
+    height: 83%
+    background-image: url("../assets/curso/tema1/53.svg") 
+    justify-content: space-between
+    @media (max-width: $bp-min-md)
+      top: -10px
+      width: calc(100% + 130px)
+      height: calc(100% + 30px)
+      left: -60px
+      background-image: none
+      background-color: #423755
+.bg-tema-intro
+  background-image: url("../assets/curso/intro/2.svg")
+  background-position: top
+  background-repeat: no-repeat
+  background-size: cover
+.bg-tema-1
+  background-image: url("../assets/curso/bg-tema-1.svg")
+  background-position: top
+  background-repeat: no-repeat
+  background-size: cover
+.bg-tema-1b
+  background-image: url("../assets/curso/bg-tema-1b.svg")
+  background-position: top
+  background-repeat: no-repeat
+  background-size: cover
+.bg-tema-2
+  background-image: url("../assets/curso/tema2/2-2.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.bg-tema-3
+  background-image: url("../assets/curso/tema3/1.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.bg-tema-3v1
+  background-image: url("../assets/curso/tema3/3.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.bg-tema-3v2
+  background-color: #F6F9FF
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.bg-tema-1
+  background-image: url("../assets/curso/tema1/13.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.bg-tema-1v1
+  background-image: url("../assets/curso/tema1/15.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.bg-tema-1v2
+  background-image: url("../assets/curso/tema1/23.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.bg-tema-1v3
+  background-image: url("../assets/curso/tema1/35.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: contain
+.bg-tema-1v4
+  background-image: url("../assets/curso/tema1/40.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.bg-tema-1v5
+  background-image: url("../assets/curso/tema1/50.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.bg-tema-1v6
+  background-image: url("../assets/curso/tema1/57.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.bg-tema-1v7
+  background-image: url("../assets/curso/tema1/62.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.bg-tema-1v8
+  background-image: url("../assets/curso/tema1/69.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.bg-tema-1v9
+  background-image: url("../assets/curso/tema1/87.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+
+.tarjeta-slyder
+  background-image: url("../assets/curso/bg-slyder.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+
+.bg-info3
+  background-image: url("../assets/curso/bg-info3v2.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.bg-info4
+  background-image: url("../assets/curso/bg-info4.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.bg-info2
+  background-image: url("../assets/curso/bg-info2v2.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.bg-info
+  background-image: url("../assets/curso/bg-info.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.tarjeta-icono
+  height: 100%
+  background-color: #3c1c74
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  align-items: center
+  transition: background-color .2s ease-in-out
+  p
+    transition: color .2s ease-in-out
+    color: white
+    overflow-wrap: break-word
+    width: 70%
+  img
+    width: 50px
+    display: inline-flex
+  &:hover
+    background-color: #f7df3f
+    p
+      color: $color-sistema-texto
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  border-radius: 10px
+  background-color: #3c1c74
+  opacity: 1
+  border: 0
+  i
+    color: white
+.titulo-tres
+  display: inline-flex
+  background-color: #3173f5
+  padding: .5rem
+  position: relative
+  h5
+    display: inline-flex
+    color: white
+    margin-left: 20px
+    margin-right: 20px
+  /*&:after
+    content: url("../assets/curso/tema4/icon.svg")
+    position: absolute
+    width: 54px
+    transform-origin: center
+    top: 0
+    left: 0
+    transform: translate(-50%, -10%)*/
+.acordion__activo
+  background-image: url("../assets/curso/tema4/bg-ac.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.acordion__accion__btn--a
+  border-radius: 10px
+  background-color: #3c1c74
+  i
+    color: #bad1ff
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5
+    color: #7F4FC7
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #fdf5c1
+.crd--avatarHorizontal2
+  position: relative
+  padding-right: 6rem
+  & > *
+    position: relative
+  h5
+    color: #7F4FC7
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 40px)
+    height: 100%
+    background-color: #ffeaec
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before
+    background-color: #fefae2 !important
+.crd--first2, .crd--last2
+  &::before
+    background-color: #fff0f2 !important
+
+.crd--first
+  &::before
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    border-bottom-left-radius: 30px
+
+.crd--last3
+  &::before
+    background-color: #FFF3F6
+    border-top-left-radius: 30px
+    border-top-right-radius: 30px
+.crd--last3-1
+  &::before
+    background-color: #FFECF1
+.crd--last3-2
+  &::before
+    background-color: #FFE0E8
+.crd--last3-3
+  &::before
+    background-color: #FFD7E1
+.crd--last3-4
+  &::before
+    background-color: #FFD2DE
+.crd--last3-5
+  &::before
+    background-color: #FFCBD8
+    border-bottom-left-radius: 30px
+    border-bottom-right-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -6rem
+  z-index: 1
+  &_2
+    position: absolute
+    bottom: 0
+    z-index: 1
+    right: -4rem
+  
+  @media (max-width: 1000px)
+    display: none
+.img250
+  width: 250px
+.img130
+  width: 130px
+
+.aside-menu__header
+  background-color: #3C1C74 !important
+
+.aside-menu__header h4
+  color: #fff
+
+a.aside-menu__sec-menu__item__lnk
+  color: #fff !important
+
+.aside-menu__menu i.fa, .aside-menu__menu i.fas
+  font-weight: 900
+  background: #3C1C74 !important
+  width: 30px
+  height: 30px
+  color: #fff
+  padding-top: 7px
+  text-align: center
+
+.aside-menu__sec-menu__item__lnk i
+  color: #3C1C74
+
+.aside-menu__sec-menu__item__lnk:hover span
+  color: #3C1C74
+
+.aside-menu__menu__item--active .aside-menu__menu__item__lnk, .aside-menu__menu__item--active .aside-menu__sec-menu__item__lnk
+  background-color: #F4EFFC !important
+
+.aside-menu__menu__item--active .aside-menu__menu__item__lnk, .aside-menu__menu__item--active .aside-menu__sec-menu__item__lnk
+  background-color: #F4EFFC
+
+.aside-menu__menu .aside-menu__menu__item:hover, .aside-menu__menu .aside-menu__menu__item--sub-menu:hover, .aside-menu__menu .aside-menu__sec-menu__item:hover
+  background-color: #F4EFFC
+
+.aside-menu__sec-menu
+  background-color: #3C1C74 !important
+
+.aside-menu__menu__item:hover, .aside-menu__menu__item--sub-menu:hover, .aside-menu__sec-menu__item:hover
+  background-color: #F4EFFC !important
+
+.aside-menu__menu__item:hover span, .aside-menu__menu__item--sub-menu:hover span, .aside-menu__sec-menu__item:hover span
+  color: #3C1C74 !important
+
+@media (max-width: $bp-max-md)
+  .mn
+    margin: 0 -3rem
+    padding: 3rem 3rem
+  .contenido_curso
+    padding: 3rem 3rem
+
+
+.bg-actividad
+  background: #f2f2f2
+
+.bg-crema
+  background: #FEFCCB
+
+.barra-avance
+  background: #3C1C74 !important
+
+.boton, .boton--sm
+  border-radius: 0 !important
+
+.titulo-principal
+  align-items: start
+
+span.txt-color-acento-botones
+  color: $color-acento-botones!important
+
+.txt-color-primario
+  color: $color-primario !important
+
+.bg-gray-dark
+  background: #423755
+
+.bg-green
+  background: #37A08D
+  color: #fff
+  p
+    color: #fff
+
+.bg-actividad-full
+  background-image: url("../assets/curso/bg-actividad.svg")
+  background-position: top
+  background-repeat: no-repeat
+  background-size: cover
+
+.titulo-segundo:after 
+  background-color: #fff !important
+
+.acordion__accion__btn--a
+  border-radius: 0px !important
+
+
+.lista-ul--color, .fa-ul
+  margin-left: 0
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.border--bottom
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #b0c0d2;
+
+.crd--first2,.crd--first
+  &::before
+    border-top-left-radius: 25px
+
+.crd--last2,.crd--last
+  &::before
+    border-bottom-left-radius: 25px
+
+
+.crd--avatarHorizontal2--c2
+  &::before
+    background: #FFECF1
+.crd--avatarHorizontal2--c3
+  &::before
+    background: #FFE0E8
+.crd--avatarHorizontal2--c4
+  &::before
+    background: #FFD7E1
+.crd--avatarHorizontal2--c5
+  &::before
+    background: #FFCBD8 !important
+
+
+.tabla-c td, .tabla-c th
+  border: 1px solid #ACB3B6
+
+.li-m
+  .lista-ul--color li 
+    margin-bottom: 0
+.tabs-c__content-item
+  background-image: url("../assets/curso/tema1/30.svg")
+  background-position: start
+  background-repeat: no-repeat
+  background-size: cover
+.tabs-c__header
+  margin-bottom: 0
+
+.tw
+  width: 75%
+  &_1
+    width: 25%
+.tarjeta--acc
+  background-color: #bad1ff
+.acordion-modificado 
+  .acordion__accion__btn--a
+    transform: scale(.7)
+    border-radius: 5px !important
+    background-color: #3C1C74
+    i 
+      color: white
+.tarjeta-slyde-ed
+  border-radius: 20px
+  position: relative
+  z-index: 0
+  // margin: 20px
+  // background-color: $white 
+  &:before
+    content: ''
+    position: absolute
+    background-color: #3a1b70
+    width: 100%
+    height: 60%
+    z-index: -1
+    top: 0
+    left: 0
+    border-radius: 20px
+    transform: translateY(30%)
+.tarjeta-ed
+  border-radius: 20px
+  box-shadow: 0px 3px 5px 0px rgba(17, 30, 97, 0.3)
+.slyder-a__bullets__item
+  @media (max-width: $bp-min-sm)
+    margin: 0 2px

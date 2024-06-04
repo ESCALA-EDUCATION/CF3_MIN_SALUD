@@ -1,0 +1,28 @@
+<template lang="pug">
+#app.app
+  Header
+  .contenedor-principal
+    section.seccion-principal(:class="{'seccion-principal--barra-avance-open' : !menuState}")
+      router-view
+  BarraAvance
+  Accesibilidad
+
+</template>
+
+<script>
+export default {
+  name: 'App',
+  computed: {
+    menuState() {
+      return this.$store.getters.isMenuOpen
+    },
+  },
+  mounted() {
+    this.$aos.init({
+      offset: 100,
+    })
+  },
+}
+</script>
+
+<style lang="sass"></style>

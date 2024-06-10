@@ -195,11 +195,11 @@
       p.mb-5 Los elementos a tener en cuenta en la humanización de los servicios de salud. 
 
       figure.mb-5(data-aos="zoom-in")
-        //.video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/Oi35klisYoU?si=g6WkpvjrPh7sPFrG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/KvkB5GXmji4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           
-        img(src='@/assets/curso/videoyt.png' alt='')
-        figcaption Video: Leyenda del video
+        //img(src='@/assets/curso/videoyt.png' alt='')
+        //figcaption Video: Leyenda del video
       
       p Tener en cuenta diversas actividades que ayuden a dar cumplimiento a la humanización en los servicios de salud, como por ejemplo lo dispuesto por el #[span.color-primario Ministerio de Salud y Protección Social] en lo que corresponde a la humanización de servicios en el marco de las atenciones de protección específica y detección temprana a mujeres gestantes, niños y niñas en la ruta integral de atenciones - RIA:
 

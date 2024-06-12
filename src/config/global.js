@@ -164,199 +164,165 @@ export default {
   referencias: [
     {
       referencia:
-        'Constitución política de Colombia. (1991). Título II, de Los Derechos Sociales, Económicos y Culturales Artículos 48 y 49. ',
-      link: 'https://pdba.georgetown.edu/Constitutions/Colombia/colombia91.pdf',
+        'Alcaldía Mayor de Bogotá, Dirección de Provisión de Servicios de Salud. (2021). Lineamiento para la atención en salud de las personas Trans y No Binarias en Bogotá D.C.: aproximaciones iniciales.',
     },
     {
       referencia:
-        'Decreto 762 de 2018. Por el cual se adiciona un capítulo al Título 4 a la Parte 4, del Libro 2, del Decreto 1066 de 2015, Único Reglamentario del Sector Interior, para adoptar la Política Pública para la garantía del ejercicio efectivo de los derechos de las personas que hacen parte de los sectores sociales LGBTI y de personas con orientaciones sexuales e identidades de género diversas. 07 de mayo 2018. D.O. 50.586.',
-    },
-    {
-      referencia:
-        'Decreto 780 de 2016 Sector Salud y Protección Social. Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social. 06 mayo 2016 con última actualización el 05 agosto de 2022.',
-    },
-    {
-      referencia:
-        'Naciones Unidas. (2023). Informe de los objetivos de desarrollo sostenible, edición especial, “Por un plan de rescate para las personas y el planeta”. ',
-      link: 'https://www.un.org/sustainabledevelopment/es/development-agenda/',
-    },
-    {
-      referencia:
-        'Ley 100 de 1993. Por la cual se crea el sistema de seguridad social integral y se dictan otras disposiciones. 23 diciembre de 1993, D.O. 41.148.',
-    },
-    {
-      referencia:
-        'Ley 1122 de 2007. Por la cual se hacen algunas modificaciones en el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones. 09 enero 2007. D.O. 46.506. ',
-    },
-    {
-      referencia:
-        'Ley 1438 de 2011. Por medio de la cual se reforma el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones. 19 enero 2011. D.O. 47957.',
-    },
-    {
-      referencia:
-        'Ley Estatutaria 1751 de 2015, por medio de la cual se consagra el derecho fundamental a la salud, dando lineamientos al Ministerio de Salud y Protección Social para realizar reformas significativas al sistema general de seguridad social en salud. 16 de febrero de 2015. D.O. 49427.',
-    },
-    {
-      referencia:
-        'Fondo de Población de las Naciones Unidas - UNFPA (2019). Lineamientos de Atención en los Servicios de Salud que Consideran el Enfoque Diferencial, de Género y No Discriminación para Personas LGBTI. – Colombia.',
-    },
-    {
-      referencia:
-        'Fondo de Población de las Naciones Unidas - UNFPA. (2010). Política Nacional de Derechos Sexuales y Derechos Reproductivos –PNSDSDR. Ministerio de Salud y Protección Social, Profamilia, Organización Internacional para las Migraciones.',
-    },
-    {
-      referencia:
-        'Resolución 2138 de 2023. Por la cual se adoptan los lineamientos de transversalización del enfoque de género en el sector salud para el cierre de brechas por razones de sexo, género, identidad de género y orientación sexual. ',
-    },
-    {
-      referencia:
-        'Resolución 2367 de 2023, Por la cual se modifican los artículos 1, 2 y 3 de la Resolución 1035 de 2022 y los capítulos 3, 4, 5, 6, 8, 9, 10 y 11 del anexo técnico "Plan Decenal de Salud Pública 2022-2031".',
-    },
-    {
-      referencia:
-        'Resolución 429 de 2016. Por medio de la cual se adopta la Política de Atención Integral en Salud.  D.O. 49.794.',
-    },
-    {
-      referencia:
-        'Organización Panamericana de la Salud y Organización Mundial de la Salud. (2013).  Resolución CD52.R6, Abordar las causas de las disparidades en cuanto al acceso y la utilización de los servicios de salud por parte de las personas lesbianas, homosexuales, bisexuales y TRANS, 52° Consejo Directivo.',
+        'Díaz Amado, E. (Il.). (2017). La humanización de la salud: conceptos, críticas y perspectivas (ed.). Editorial Pontificia Universidad Javeriana.',
       link:
-        'https://iris.paho.org/bitstream/handle/10665.2/4434/CD52-R6-esp.pdf?sequence=2&isAllowed=y',
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/123301?page=1',
     },
     {
       referencia:
-        'Rocha-Buelvas, Anderson. (2015,). El riesgo suicida y los significados de las minorías sexuales: un nuevo reto para la salud pública. rev.fac.med. [online]. vol.63, n.3, pp.537-544. ISSN 0120-0011.',
-      link: 'https://doi.org/10.15446/revfacmed.v63n3.43219',
+        'Fondo de Población de las Naciones Unidas - UNFPA – Colombia. (2019). Lineamientos de Atención en los Servicios de Salud que Consideran el Enfoque Diferencial, de Género y No Discriminación para Personas LGBTI.',
+    },
+    {
+      referencia:
+        'Gobernación del César. (2010). Provisión de servicios afirmativos de salud para personas LGBT (Lesbianas, Gays, Bisexuales y Transgeneristas). Colombia diversa.',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social, Oficina de Promoción Social. (2020). Lineamientos para la mitigación del riesgo de contagio, acceso a los servicios en salud y articulación con servicios sociales dispuestos para los sectores sociales LGBTI o con identidades y expresiones de género diversas en el marco de la emergencia por coronavirus (COVID-19).',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2021). Orientaciones para eliminar el estigma y la discriminación hacia personas que consumen sustancias psicoactivas, con enfoque de género y población LGBTI.',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2023). Resolución 2366, por la cual se establecen los servicios y tecnologías de salud financiados con recursos de la Unidad de Pago por Capitación (UPC).',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (s.f.). Rutas integrales de atención en salud (RIAS). ',
+      link:
+        'https://www.minsalud.gov.co/paginas/rutas-integrales-de-atencion-en-salud.aspx',
+    },
+    {
+      referencia:
+        'Organización Panamericana de la Salud. (2010). Diretrizes para Atenção Integral à Saúde de Adolescentes e Jovens Lésbicas, Gays, Bissexuais, Travestis e Transexuais. Washington.',
+    },
+    {
+      referencia:
+        'Real Academia Española. (2024). Diccionario de la lengua española (23.ª ed., versión 23.7 en línea).',
+      link: 'https://dle.rae.es',
+    },
+    {
+      referencia:
+        'Rodríguez Riesco, L. et al. (2022). El proceso de aceptación y adaptación a la bisexualidad a través de la terapia cognitivo-conductual con enfoque afirmativo: Estudio de caso único. Revista de Psicoterapia, 33(123), 235-250.',
+      link: 'https://doi.org/10.33898/rdp.v33i123.1140',
+    },
+    {
+      referencia:
+        'Rueda Castro, L., et al. (2018). Humanizar la medicina: un desafío conceptual y actitudinal. Revista Iberoamericana De Bioética, (8), 01–15',
+      link: 'https://doi.org/10.14422/rib.i08.y2018.002',
     },
   ],
   glosario: [
     {
-      termino: 'Autonomía progresiva:',
+      termino: 'Alianzas o Asociaciones de Usuarios',
       significado:
-        'es el principio que habilita la toma de decisiones por si solas de las niñas, niños y adolescentes.',
+        'grupo de afiliados que tienen como función la de velar por la calidad en la prestación del servicio, así como la defensa de los derechos de los usuarios.',
     },
     {
-      termino: 'Arquetipo',
+      termino: 'Audiencias públicas',
       significado:
-        'modelo que sirve como línea para imitarlo, reproducirlo o copiarlo. Es algo que sirve como ejemplo de perfección de algo. ',
+        'se hace con el fin de evaluar la formulación, ejecución o evaluación de diversas políticas y programas a cargo de una entidad; en conclusión, este mecanismo sirve para conocer y discutir los resultados de la operación de los proyectos.',
     },
     {
-      termino: 'Cosmovisión',
+      termino: 'Cabildo abierto',
       significado:
-        'es el grupo de opiniones y creencias que conforman la imagen o concepto general del mundo que tiene una persona, época o cultura, partiendo de la interpretación de su propia naturaleza y la de todo lo existente.',
+        'este tipo de mecanismo democrático consiste en la reunión de concejos distritales, municipales y de las juntas administradoras de tipo local, con el fin que los ciudadanos puedan estar inmersos en los temas de asunto común.',
     },
     {
-      termino: 'Cultura de seguridad',
+      termino: 'Comités de Ética Hospitalaria',
       significado:
-        'es el producto de valores, actitudes, percepciones, competencias y patrones de comportamiento desde lo individual y grupal, lo cual ayuda a determinar el compromiso, el estilo y el desempeño de una institución.',
+        'está conformado por los usuarios, delegados de la comunidad y los representantes de las instituciones que prestan servicios de salud IPS.',
     },
     {
-      termino: 'Diagnóstico',
+      termino: 'Comités de Participación Comunitaria (COPACOS)',
       significado:
-        'en medicina, el diagnóstico o propedéutica clínica es el procedimiento por el cual se identifica una enfermedad, entidad nosológica, síndrome, o cualquier condición de salud- enfermedad (el "estado de salud" también se diagnostica).',
+        'espacio de comunicación entre diversos actores de la comunidad con el estado y tiene como objetivo intervenir en la ejecución de las actividades y control del gasto en el Sistema General de Seguridad Social en Salud.',
     },
     {
-      termino: 'Igualdad',
+      termino: 'Comunicación incluyente',
       significado:
-        'es el acceso a la Seguridad Social en salud que garantiza no incurrir en discriminación a las personas residentes en el territorio colombiano; por razones de cultura, sexo, raza, origen nacionalidad, orientación sexual, religión, edad o capacidad económica. ',
+        'se refiere a la comunicación emitida mediante el lenguaje hablado, escrito o visual, libre de códigos y significados sexistas que discriminen y atenten contra la libertad y dignidad.',
     },
     {
-      termino: 'ITS / Infección de Transmisión sexual',
+      termino: 'Consultas públicas',
       significado:
-        'son las infecciones que pasan de una persona a otra por medio de una relación sexual (vaginal, anal u oral) y pueden producir enfermedades.',
+        'mecanismo permite entregar y recibir diversos comentarios, sugerencias y demás comentarios en el marco de la construcción de nuevos proyectos, políticas, planes, programas, y demás normas de competencia relacionadas con el ambiente.',
     },
     {
-      termino: 'ETS /  Enfermedades de transmisión sexual',
+      termino: 'Disidente de género',
       significado:
-        'son conocidas como infecciones de transmisión sexual (ITS). Las ETS son infecciones que se propagan de una persona a otra por medio de la actividad sexual, incluso por otras vías como anal, vaginal u oral. ',
+        'persona que rechaza la “norma” de cómo debe comportarse en sentido de su género.',
     },
     {
-      termino: 'Participación Social',
+      termino: 'Iniciativa popular',
       significado:
-        'se refiere a la intervención de la comunidad en la organización, control, gestión y fiscalización de las instituciones y del sistema en conjunto.',
+        'consiste en el derecho que tienen los grupos de personas de formular y presentar proyectos en el marco del desarrollo de diversas normas (ley, resolución, ordenanza); para que se puedan debatir y se tenga respuesta de aprobación, modificación o negación por en la entidad pública competente.',
     },
     {
-      termino: 'Programático',
-      significado: 'perteneciente o relativo al programa. ',
-    },
-    {
-      termino: 'Prestador',
+      termino: 'Lenguaje sexista',
       significado:
-        'corresponde a cualquier persona natural o jurídica, establecimiento o institución, que se encuentre autorizada para otorgar prestaciones de salud, tales como: consulta, consultorio, hospital, clínica, centro médico, centro de diagnóstico terapéutico, centro de referencia de salud, laboratorio y otros de cualquier naturaleza, incluidas ambulancias y otros vehículos adaptados para atención extrahospitalaria. ',
+        'el lenguaje sexista ha ayudado a legitimar y reproducir relaciones injustas entre los sexos que invisibilizan a las mujeres, prevaleciendo formas de expresión colectiva que excluyen a las mujeres con formas lingüísticas androcéntricas y subordinan lo femenino a lo masculino.',
     },
     {
-      termino: 'Prevención',
+      termino: 'MhGAP',
       significado:
-        'es el enfoque de orientado a la precaución que se aplica a la gestión del riesgo, en el marco de la evaluación de los procedimientos y la prestación de los servicios de salud.',
+        'el Programa de acción para superar las brechas en salud mental, o mhGAP (del inglés, Mental Health Global Action Programme), es un programa de la OMS que se ocupa de la falta de atención para personas con trastornos mentales, neurológicos y por uso de sustancias.',
     },
     {
-      termino: 'Observatorio Nacional de Salud',
+      termino: 'Referendo',
       significado:
-        'es el responsable de hacer el monitoreo a los indicadores de salud pública para cada municipio y departamento, lo cual permite tener información desagregada de resultados por Asegurador, Prestador y Ente Territorial.',
+        'es una convocatoria dirigida a los ciudadanos para que puedan aprobar o rechazar algún tipo de proyecto de norma jurídica, o que sea derogada alguna norma que se encuentre vigente.',
     },
     {
-      termino: 'Transectorial en salud',
+      termino: 'Servicio de Atención a la Comunidad (SAC)',
       significado:
-        'es el resultado de la interacción de las condiciones biológicas, psíquicas, sociales y culturales del individuo, con el entorno y la sociedad.',
+        'es el servicio a la comunidad que se organiza por medio de las diversas dependencias de participación social con el fin de canalizar y dar solución a las peticiones e inquietudes en salud de los ciudadanos.',
     },
     {
-      termino: 'VIH / (virus de la inmunodeficiencia humana)',
-      significado: 'es un virus que ataca el sistema inmunitario del cuerpo.',
+      termino: 'Servicio de Atención al Usuario (SIAU)',
+      significado:
+        'es el sistema que se encarga de dar información y atención a los usuarios por medio de: oficina de SIAU.',
+    },
+    {
+      termino: 'UPC',
+      significado: 'Unidad de Pago por Capitación. ',
+    },
+    {
+      termino: 'Veedurías ciudadanas',
+      significado:
+        'Es la estrategia que le permite a los ciudadanos realizar supervisión en todo el proceso de gestión pública o vigilancia a una entidad encargada de la prestación de servicios.',
     },
   ],
   complementario: [
     {
       tema:
-        '2.2 Normativa nacional establecida para la atención a las personas que componen los sectores LGBTIQ+ y orientaciones sexuales e identidades de género no hegemónicas.',
+        '1.2.	Modelos de atención: no afirmativos y afirmativos para la población LGTBIQ+ y con orientaciones sexuales e identidades de género no hegemónicas.',
       referencia:
-        'Resolución 2367, Por la cual se modifican los artículos 1, 2 y 3 de la Resolución 1035 de 2022 y los capítulos 3, 4, 5, 6, 8, 9, 10 y 11 del anexo técnico "Plan Decenal de Salud Pública 2022-2031". (29 diciembre de 2023).',
-      tipo: 'Norma',
-      link:
-        'https://www.alcaldiabogota.gov.co/sisjur//normas/Norma1.jsp?i=152662&dt=S',
-    },
-    {
-      tema:
-        '2.2 Normativa nacional establecida para la atención a las personas que componen los sectores LGBTIQ+ y orientaciones sexuales e identidades de género no hegemónicas.',
-      referencia:
-        'Resolución 2138, Por la cual se adoptan los lineamientos de transversalización del enfoque de género en el sector salud para el cierre de brechas por razones de sexo, género, identidad de género y orientación sexual. (19 diciembre de 2023).',
-      tipo: 'Norma',
-      link:
-        'https://www.minsalud.gov.co/Paginas/MinSalud-fortalece-medidas-con-enfoque-de-genero-en-entidades-territoriales-de-salud.aspx',
-    },
-    {
-      tema:
-        '2.2 Normativa nacional establecida para la atención a las personas que componen los sectores LGBTIQ+ y orientaciones sexuales e identidades de género no hegemónicas.',
-      referencia:
-        'Decreto 762 de 2018. Por el cual se adiciona un capítulo al Título 4 a la Parte 4, del Libro 2, del Decreto 1066 de 2015, Único Reglamentario del Sector Interior, para adoptar la Política Pública para la garantía del ejercicio efectivo de los derechos de las personas que hacen parte de los sectores sociales LGBTI y de personas con orientaciones sexuales e identidades de género diversas. 07 de mayo 2018. D.O. 50.586.',
-      tipo: 'Norma',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=86303',
-    },
-    {
-      tema:
-        '2.2 Normativa nacional establecida para la atención a las personas que componen los sectores LGBTIQ+ y orientaciones sexuales e identidades de género no hegemónicas.',
-      referencia:
-        'Política Nacional de Derechos Sexuales y Derechos Reproductivos –PNSDSDR. Ministerio de Salud y Protección Social, Profamilia, Organización Internacional para las Migraciones – OIM, Fondo de Población de las Naciones Unidas – UNFPA. ',
-      tipo: 'Política',
-      link:
-        'https://consensomontevideo.cepal.org/es/instrumento/politica-nacional-de-sexualidad-derechos-sexuales-y-derechos-reproductivos-pnsdsdr',
-    },
-    {
-      tema:
-        '2.2 Normativa nacional establecida para la atención a las personas que componen los sectores LGBTIQ+ y orientaciones sexuales e identidades de género no hegemónicas.',
-      referencia:
-        'Documento CONPES D.C. 16 de 2021 Consejo Distrital de Política Económica y Social del Distrito Capital - CONPES D.C. y PPLGBTI Decreto 762 de 2018',
+        'UNFPA Colombia. (2019). Lineamientos en atención LGBTI (versión digital). Bogotá: UNFPA Colombia.',
       tipo: 'Documento',
-      link:
-        'https://sisjur.bogotajuridica.gov.co/sisjur/normas/Norma1.jsp?i=120224',
+      descarga: '/downloads/LINEAMIENTOS EN ATENCION LGBTI-VERSION DIGITAL.pdf',
     },
     {
       tema:
-        '5. Orientaciones técnicas para las personas que componen los sectores LGBTIQ+ y con orientaciones sexuales e identidades de género no hegémonicas. ',
+        '1.2.	Modelos de atención: no afirmativos y afirmativos para la población LGTBIQ+ y con orientaciones sexuales e identidades de género no hegemónicas.',
       referencia:
-        'Lineamientos de Atención en los Servicios de Salud que Consideran el Enfoque Diferencial, de Género y No Discriminación para Personas LGBTI. Fondo de Población de las Naciones Unidas - UNFPA – Colombia. 1 octubre de 2019. ',
+        'Alcaldía Mayor de Bogotá, Dirección de Provisión de Servicios de Salud. (2021). Lineamiento para la atención en salud de las personas Trans y No Binarias en Bogotá D.C.: aproximaciones iniciales. Bogotá: Alcaldía Mayor de Bogotá.',
       tipo: 'Documento',
-      link:
-        'https://colombia.unfpa.org/es/publications/lineamientos-atencion-servicios-salud-enfoque-genero',
+      descarga: '/downloads/AT_INT_CARACTERIZACION.pdf',
+    },
+    {
+      tema:
+        '1.4	Problemas asociados a las y los prestadores de servicios de salud.',
+      referencia:
+        'Gobernación del César. (2010). Provisión de servicios afirmativos de salud para personas LGBT (Lesbianas, Gays, Bisexuales y Transgeneristas). Colombia Diversa.',
+      tipo: 'Documento',
+      descarga: '/downloads/provision-de-servicios-salud.pdf',
     },
   ],
   creditos: [

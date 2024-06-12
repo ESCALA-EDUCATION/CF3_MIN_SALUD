@@ -39,7 +39,7 @@ export default {
         titulo:
           'Atención en salud de las personas de los sectores LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas.',
         subTitulo:
-          'Atención en salud de las personas de los sectores LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas.',
+          '1. Atención en salud de las personas de los sectores LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas.',
         img: require('@/assets/curso/portada/1.png'),
         desarrolloContenidos: true,
         subMenu: [
@@ -115,24 +115,9 @@ export default {
         titulo: 'Síntesis',
         subTitulo: 'Síntesis',
         img: require('@/assets/curso/portada/5.png'),
-        desarrolloContenidos: true,
+        desarrolloContenidos: false,
       },
-      {
-        nombreRuta: 'glosario',
-        icono: 'fas fa-sitemap',
-        titulo: 'Glosario',
-        subTitulo: 'Glosario',
-        img: require('@/assets/curso/portada/6.png'),
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'referencias',
-        icono: 'fas fa-sitemap',
-        titulo: 'Referencias Bibliograficas',
-        subTitulo: 'Referencias Bibliograficas',
-        img: require('@/assets/curso/portada/7.png'),
-        desarrolloContenidos: true,
-      },
+
       //{
       //  nombreRuta: 'actividad',
       //  icono: 'fas fa-info-circle',

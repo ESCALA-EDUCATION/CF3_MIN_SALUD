@@ -624,10 +624,12 @@
           tbody
             tr
               td Promoción y mantenimiento de la salud (obligatorio cumplimiento).
-              td #[span.color-primario Rias-promocion-mantenimiento-salud]
+              td 
+                a(:href="obtenerLink('downloads/rias-promocion-mantenimiento-salud.zip')" target="_blank" type="application/pdf")  RIAS promocion mantenimiento salud
             tr
               td.bgr_9 #[strong Materno perinatal (obligatorio cumplimiento).]
-              td(rowspan="3") #[span.color-primario Rias-materno-perinatal]                 
+              td(rowspan="3") 
+                a(:href="obtenerLink('downloads/rias-materno-perinatal.zip')" target="_blank" type="application/pdf") RIAS materno perinatal                 
             tr
               td.bgr_9 Orientaciones relacionadas con la atención para la población materno perinatal:
             tr
@@ -648,19 +650,24 @@
                       | Brinde orientación para el cuidado de las personas en caso de transiciones de hombre a mujer (transexuales femeninas o mujeres transexuales) que se realizan implantes de senos, terapias hormonales con estrógenos, depilaciones del vello facial y corporal, operaciones para definir rasgos faciales femeninos y la cirugía de reasignación genital (…).
             tr
               td #[strong Cardio-cerebro-vascular.]
-              td #[span.color-primario Rias-cardio-cerebro-vascular]   
+              td 
+                a(:href="obtenerLink('downloads/rias-cardio-cerebro-vascular.zip')" target="_blank" type="application/pdf") RIAS Cardio crerebro vascular   
             tr
               td #[strong Cáncer.  En el caso de las personas trans masculinas evalúe y prevenga cáncer de cuello de útero y mamas. Identifique la existencia de enfermedades tiroideas y explore apropiadamente.]
-              td #[span.color-primario Rias-cancer]  
+              td 
+                a(:href="obtenerLink('downloads/rias-cancer.zip')" target="_blank" type="application/pdf") RIAS Cáncer  
             tr
               td #[strong Alteraciones nutricionales.]
-              td #[span.color-primario Rias-nutricional]  
+              td 
+                a(:href="obtenerLink('downloads/rias-nutricional.zip')" target="_blank" type="application/pdf") RIAS Nutricional   
             tr
               td #[strong Trastornos asociados al consumo de SPA.]
-              td #[span.color-primario Rias-spa]  
+              td
+                a(:href="obtenerLink('downloads/rias-spa.zip')" target="_blank" type="application/pdf") RIAS SPA
             tr
               td #[strong Enfermedades infecciosas.]
-              td #[span.color-primario Rias-infecciosas] 
+              td 
+                a(:href="obtenerLink('downloads/rias-infecciosas.zip')" target="_blank" type="application/pdf") RIAS Infecciosas
 
       p.mb-5 #[span.color-primario B.] Garantizar el acceso al plan de beneficios a las personas LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas (financiado con recursos de la UPC) actualizado por el #[strong Ministerio de Salud y Protección Social], en torno a los servicios y tecnologías de salud. Dentro de los servicios y tecnologías a considerar, se enuncian de manera general:
 
@@ -739,7 +746,7 @@
     .row.bgr_10.justify-content-center.p-5.mb-5
       .col-lg-8
         figure
-          img(src="@/assets/curso/tema1/67.jpg", alt="alt")
+          img(src="@/assets/curso/tema1/67.png", alt="alt")
     
     p.mb-5 #[span.color-primario C.] Tener presente en todo momento que la persona LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas, puede acceder al servicio de salud bajo las siguientes condiciones:
 

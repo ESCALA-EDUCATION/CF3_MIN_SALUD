@@ -178,7 +178,7 @@
                 img(src="@/assets/curso/tema2/2-23.svg")
               .col.align-content-center
                 p.mb-0 <b>10.</b> Valorar la dinámica familiar como apoyo al desarrollo integral.
-        .col-md-6.col-lg-3.mb-3
+        .col-md-6.col-lg-6.mb-3
           div.bgr_3.tarjeta.p-2.h-100.align-content-center
             .row
               .col-auto.align-content-center 

@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Atención en salud para la atención a las personas de los sectores LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas.',
+      'Orientaciones para la atención en salud a las personas que hacen parte de los sectores LGBTIQ+ y con orientaciones sexuales e identidades de género diversas.',
     descripcionCurso:
       'La atención integral para personas de los sectores LGBTIQ+ y con orientaciones sexuales e identidades de género diversas se debe hacer de manera humanizada, aplicando los modelos afirmativos y de acuerdo a las necesidades específicas de las personas que pertenecen a estos grupos sociales. sí mismo se hace necesario identificar las principales dificultades de los prestadores en torno al proceso de atención y la forma en cómo dichas dificultades puede ser superadas para que la atención se haga de manera respetuosa, sin discriminación y garantizando la aplicación de los enfoques diferencial, de género y otros que sean pertinentes para la atención integral en salud.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
